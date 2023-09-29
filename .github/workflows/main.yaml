@@ -19,10 +19,6 @@ jobs:
         with:
           node-version: 14 # Use the Node.js version you need
 
-      - name: Change working directory
-        run: cd path/to/your/project  # Specify the correct path to your project's directory
-        shell: bash
-
       - name: Clear npm cache
         run: npm cache clean --force
 
